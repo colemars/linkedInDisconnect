@@ -3,9 +3,9 @@ class LinkedInUnfollow {
 
     static okToDelete(i) {
 
-      let bank = ["junior", "web", "dev", "developer", "computer", "science", "coding", "epicodus", "software", "code", "portland", "ruby", "react", "javascript", "python", "data", "ucf", "university of central florida", "engineer", "program"]
+      let bank = ["junior", "web", "dev", "developer", "computer", "science", "coding", "epicodus", "software", "code", "portland", "ruby", "react", "javascript", "python", "data", "ucf", "university of central florida", "engineer", "program"];
 
-      let str = document.getElementsByClassName("mn-connection-card__occupation t-14 t-black--light t-normal")[i].innerHTML.toLowerCase()
+      let str = document.getElementsByClassName("mn-connection-card__occupation t-14 t-black--light t-normal")[i].innerHTML.toLowerCase();
 
       if (bank.some(function(v) {return str.indexOf(v) >=0; })) {
         return false;
@@ -14,7 +14,7 @@ class LinkedInUnfollow {
     }
 
     static unfollow() {
-      let menus = document.getElementsByClassName("dropdown-trigger mn-connection-card__dropdown-trigger ember-view")
+      let menus = document.getElementsByClassName("dropdown-trigger mn-connection-card__dropdown-trigger ember-view");
       if (menus.length > 0) {
         let i;
         for (i in menus) {
