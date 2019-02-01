@@ -23,9 +23,9 @@ class LinkedInUnfollow {
           for (i in menus) {
             if (LinkedInUnfollow.okToDelete(i)) {
               menus[i].click();
-              var remove = document.getElementsByClassName("display-flex align-items-center t-14 t-black--light t-normal");
+              let remove = document.getElementsByClassName("display-flex align-items-center t-14 t-black--light t-normal");
               remove[0].click();
-              var confirm = document.getElementsByClassName("mv2 artdeco-button artdeco-button--2 artdeco-button--primary ember-view");
+              let confirm = document.getElementsByClassName("mv2 artdeco-button artdeco-button--2 artdeco-button--primary ember-view");
               confirm[0].click();
             }
           }
