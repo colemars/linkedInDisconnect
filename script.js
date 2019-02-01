@@ -15,17 +15,17 @@ class LinkedInUnfollow {
 
     static unfollow() {
       let menus = document.getElementsByClassName("dropdown-trigger mn-connection-card__dropdown-trigger ember-view")
-        if (menus.length > 0) {
-          let i;
-          for (i in menus) {
-            if (LinkedInUnfollow.okToDelete(i)) {
-              menus[i].click();
-              let remove = document.getElementsByClassName("display-flex align-items-center t-14 t-black--light t-normal");
-              remove[0].click();
-              let confirm = document.getElementsByClassName("mv2 artdeco-button artdeco-button--2 artdeco-button--primary ember-view");
-              confirm[0].click();
-            }
+      if (menus.length > 0) {
+        let i;
+        for (i in menus) {
+          if (LinkedInUnfollow.okToDelete(i)) {
+            menus[i].click();
+            let remove = document.getElementsByClassName("display-flex align-items-center t-14 t-black--light t-normal");
+            remove[0].click();
+            let confirm = document.getElementsByClassName("mv2 artdeco-button artdeco-button--2 artdeco-button--primary ember-view");
+            confirm[0].click();
           }
         }
+      }
     }
   }
