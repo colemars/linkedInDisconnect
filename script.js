@@ -1,7 +1,5 @@
 class LinkedInUnfollow {
-    constructor() {
-      LinkedInUnfollow.unfollow();
-    }
+    constructor() {}
 
     static okToDelete(i) {
 
@@ -28,6 +26,6 @@ class LinkedInUnfollow {
               confirm[0].click();
             }
           }
-        } 
+        }
     }
   }
