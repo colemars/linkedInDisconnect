@@ -1,6 +1,7 @@
 ## This will remove connections from your profile based on the bank variable located within the js file. ##
 
 ### To run: ###
+* edit the bank variable in script.js to fit the descriptors of profiles you'd like to KEEP
 * navigate via chrome to your connections page (typically https://www.linkedin.com/mynetwork/invite-connect/connections/)
 * copy and paste js file contents into your console
 * Then enter LinkedInUnfollow.unfollow() into your console
