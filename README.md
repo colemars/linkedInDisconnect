@@ -6,4 +6,4 @@
 * copy and paste js file contents into your console
 * Then enter LinkedInUnfollow.unfollow() into your console
 
- ***Working as of 01/31/19. If linkedIn updates their html it may break***
+***Working as of 01/31/19. If linkedIn updates their html it may break***
