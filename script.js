@@ -17,7 +17,6 @@ class LinkedInUnfollow {
 
     static unfollow() {
       let menus = document.getElementsByClassName("dropdown-trigger mn-connection-card__dropdown-trigger ember-view")
-      let test = setTimeout(function(){
         if (menus.length > 0) {
           let i;
           for (i in menus) {
@@ -29,7 +28,6 @@ class LinkedInUnfollow {
               confirm[0].click();
             }
           }
-        } else {clearInterval(test)}
-      }, 100);
+        } 
     }
   }
